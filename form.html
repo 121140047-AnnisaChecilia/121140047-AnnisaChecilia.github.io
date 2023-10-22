@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Form</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="img" src="aset/e.jpg" alt="gambar">
+            <div class="side">
+                <h1>A GLIMPSE INTO MY WORLD</h1>
+                <h2> Annisa Checilia Astuti</h2>
+            </div>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="https://www.instagram.com/cheeciliann/">instagram</a></li>
+                <li><a href="https://itera.ac.id">Kampus</a></li>
+            </ul>
+        </nav>
+	<main>
+        <div class="sidebar">
+			<h2>You can choose here</h2>
+			<ul>
+				<li><a href="tabel.html">Daftar Tabel</a></li>
+				<li><a href="formulir">Formulir Pendaftaran</a></li>
+			</ul>
+		</div>
+        <div class="content"> 
+        <h1>Formulir Pendaftaran </h1>
+        <form action="tabel.html" method="GET">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            <br>
+            <label for="Nim">Nim:</label>
+            <input type="Nim" id="Nim" name="Nim" required>
+            <br>
+            <label for="Prodi">Prodi:</label>
+            <input type="Prodi" id="Prodi" name="Prodi" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="jenisk">Jenis Kelamin:</label>
+            <select id="jenisk" name="jenisk">
+            <option value="A">Laki-laki </option>
+            <option value="B">Perempuan </option>
+            </select>
+            <br>
+            <label for="tgl">Tanggal Lahir:</label>
+            <input type="tgl" id="tgl" name="tgl" required>
+            <br>
+            <label for="alamat">Alamat:</label>
+            <input type="alamat" id="alamat" name="alamat" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div> 
+</main>
+        <footer>
+            &copy; 2023 Checil`s, All rights reserved.
+        </footer>
+</body>
+</html>
